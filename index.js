@@ -2,7 +2,7 @@ const http = require('http');
 const requestListener = (req, res) => {
 res.statusCode = 200;
 res.setHeader('Content-Type', 'text/plain');
-res.end('Hello... from DevOps Lab!\n');
+res.end('Hello world... from DevOps Lab!\n');
 };
 const app = http.createServer(requestListener);
 // We only listen if this file is run directly, not when imported by tests
